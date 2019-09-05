@@ -1,8 +1,8 @@
 # Student Course CSV Data Importer
 
-Imports students, courses, and enrollment data from CSV files and laces them into a mySQL database. The CSV files are 3 elements wide and contain data such as students, courses offered, students enrolled in a course.
+I originally created this script in a handful of hours back in 2014 as a simple test.  It can definitely be expanded to handle more complex data and to add a nicer web interface to it.
 
-I originally created this script in a short handful of hours back in 2014 as a simple test.  It can definitely be expanded to handle more complex data and to add a nicer web interface to it.
+Imports students, courses, and enrollment data from CSV files and laces them into a mySQL database. The CSV files are 3 elements wide and contain data such as students, courses offered, students enrolled in a course.
 
 The script will determine which type of data is being imported (student, course, enrollment, etc). CSV data must include primary or secondary DB keys.
 
